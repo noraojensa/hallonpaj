@@ -1,11 +1,11 @@
-## hallonpaj
+# hallonpaj
 Supportskript för Raspberry Pi 
 
 
-# monitor_temp.sh
+## monitor_temp.sh
 Monitorerar temp på raspberry pi kontinuerligt och skriver resultat till en loggfil $HOME/logs/temperature.log, efter 1000 rader raderas denna (läggs då i backup tempfil). Glöm ej att lägga till cronjob som sätts igång vid reboot (crontab -e).
 
-# ssh_secret.bat
+## ssh_secret.bat
 > Anslut via ssh från en windows maskin till en remote host och spela ett zelda secret unlocked ljud om anslutningen lyckas.
 
 Prerequisite: RSA key
